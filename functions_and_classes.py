@@ -1,7 +1,7 @@
 from operator import attrgetter
 import math as math
 import pandas as pd
-import names
+#import names
 from random import randint
 
 #### !!!! CRIANDO AS CLASSES DE ALUNO E DE FORMAÇÃO !!!! ####
@@ -251,4 +251,6 @@ def teste_formacao(caso): # Teste para sistema de formações
 
 #### !!!! IMPORTING FROM EXCEL USING PANDAS !!!! ####
 		
+banco_alunos = pd.read_csv(data\todos_alunos_3rao.CSV)
 
+print(banco_alunos.head())
