@@ -251,6 +251,3 @@ def teste_formacao(caso): # Teste para sistema de formações
 
 #### !!!! IMPORTING FROM EXCEL USING PANDAS !!!! ####
 		
-banco_alunos = pd.read_csv(data\todos_alunos_3rao.CSV)
-
-print(banco_alunos.head())
